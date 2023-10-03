@@ -6,7 +6,7 @@ import requests
 # Call the 'upload_to_artifactory
 def jfrogUpload():
     url = 'http://3.85.110.208:8082/artifactory/example-repo-local/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar'
-    jar_path = '/home/ubuntu/Java_app_3.0/target/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar'
+    jar_path = '/var/lib/jenkins/workspace/cicd/target/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar'
     username = 'admin'
     password = 'India@123'
     
